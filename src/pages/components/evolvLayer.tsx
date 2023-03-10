@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import SlideCard from "./cards/SlideCard";
-import { listenerCount } from "process";
 import Image from 'next/image';
 import EvolvEarth from '../../../public/assets/svgs/EvolvEarth.png'
 
-function evolvLayer() {
+function EvolvLayer() {
   const [selected, setSelected] = useState("creators");
 
-  useEffect(() => {
-    console.log(selected);
-  });
+  // useEffect(() => {
+  //   console.log(selected);
+  // });
   const creatorText = [
     "Build stronger communities",
     "Achieve a dynamic product market fit",
@@ -99,4 +98,4 @@ function evolvLayer() {
   );
 }
 
-export default evolvLayer;
+export default EvolvLayer;
