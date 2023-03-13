@@ -5,7 +5,7 @@ import { useState } from "react";
 import star from "../../../public/assets/svgs/Star 6.png";
 import SomeCard from "../components/cards/SomeCard";
 
-function immersive() {
+function Immersive() {
   const [selected, setSelected] = useState("interaction");
 
   const immersive = (
@@ -159,4 +159,4 @@ function immersive() {
   );
 }
 
-export default immersive;
+export default Immersive;
