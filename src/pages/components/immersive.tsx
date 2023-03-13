@@ -130,7 +130,7 @@ function Immersive() {
               <div className="font-satoshi text-[16px] text-[#F0EFF4]">
                 <p className="pt-[36px]">
                   Expecting interaction without incentives is unfair from a
-                  user's pov. Evolv allows the NFT holder to experience what it
+                  users pov. Evolv allows the NFT holder to experience what it
                   feels like to be on the receiving end of value transfer.
                 </p>
                 <p className="pt-[22px]">
