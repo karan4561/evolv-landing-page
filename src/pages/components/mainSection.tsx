@@ -2,7 +2,7 @@ import React from "react";
 
 function mainSection() {
   return (
-    <div className="pt-[193px] flex flex-col items-center md:justify-start md:items-start md:pl-[56px]">
+    <div className="pt-[193px] flex flex-col min-h-[700px] md:pb-[222px] items-center md:justify-start md:items-start md:pl-[56px]">
       <p className="text-center font-sequel text-white text-[32px] md:text-[60px]">
         Launch NFTs
       </p>

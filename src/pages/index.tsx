@@ -18,12 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="bg-grains">
-        <div className="bg-custom1 min-h-screen">
+        <div className="bg-custom1">
           <Header />
           <MainSection />
         </div>
-        <div className="-mt-36">
-          <div className="bg-zigzag bg-center relative bg-no-repeat h-screen w-screen" >
+        <div className="-mt-[222px] md:-mt-[167px]">
+          <div className="bg-zigzag bg-center relative bg-no-repeat" >
               <Revolution/>
           </div>
         </div>

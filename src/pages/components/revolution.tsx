@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function revolution() {
   return (
-    <div className="flex flex-col overflow-hidden justify-center h-screen items-center pt-[550px] md:pt-[450px] pb-[256px] md:pb-[390px]">
+    <div className="flex flex-col overflow-hidden justify-center items-center pt-[227px] md:pt-[250px] md:pb-[90px]">
       <p className="font-sequel sm:w-[500px] text-white text-center text-[32px] sm:text-[44px] md:[64px]">
         It’s time for an NFT
         <span className="font-array text-[40px] sm:text-[52px] md:text-[70px] text-primaryRed">
@@ -12,7 +12,7 @@ function revolution() {
         </span>
       </p>
 
-      <div className="md:hidden border-2 rounded-full h-[155px] w-[155px] mt-[120px] border-primaryRed pl-[42.27px] pr-[57px] pb-[67.9px] pt-12">
+      <div className="md:hidden border-2 rounded-full h-[155px] w-[155px] mt-[120px] border-primaryRed p-[11px]">
             <Image
             className="relative top-[30%] left-[30%]"
             src={"/assets/svgs/EvolvStar.svg"}
