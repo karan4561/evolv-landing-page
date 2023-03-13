@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function revolution() {
   return (
-    <div className="flex flex-col overflow-hidden justify-center h-screen items-center pt-[250px] md:pt-[250px] pb-[256px] md:pb-[190px]">
+    <div className="flex flex-col overflow-hidden justify-center h-screen items-center pt-[550px] md:pt-[450px] pb-[256px] md:pb-[390px]">
       <p className="font-sequel sm:w-[500px] text-white text-center text-[32px] sm:text-[44px] md:[64px]">
         It’s time for an NFT
         <span className="font-array text-[40px] sm:text-[52px] md:text-[70px] text-primaryRed">

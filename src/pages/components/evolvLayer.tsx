@@ -20,7 +20,7 @@ function EvolvLayer() {
     "Contribute-to-earn",
   ];
   return (
-    <div className="flex flex-col items-center pb-[100px]">
+    <div className="flex flex-col items-center pt-48 pb-[100px]">
       <p className="font-satoshi text-[24px] pt-[48px] md:text-[40px] md:pb-[30px] md:w-[1040px] text-center w-[345px] font-[400px] text-[#E2E4E8]">
         A Dynamic NFT infrastructure which creates value for
       </p>
