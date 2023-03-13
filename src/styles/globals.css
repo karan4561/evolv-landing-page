@@ -175,3 +175,53 @@
   background: url('/assets/backgrounds/Granular-bg.svg');
   border-radius: 14px;
 }
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  border-radius: 14px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(241.68deg, #fe394e 1.6%, #0f1a20 38.62%);
+  border-radius: 14px;
+}
+
+.card::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #0f1a20;
+  position: absolute;
+  z-index: 3;
+  left: 0.5px;
+  top: 1px;
+  border-radius: 14px;
+}
+
+.card-gradient {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+  background: linear-gradient(253.09deg, rgba(15, 26, 32, 0.25) -7.53%, rgba(15, 26, 32, 0) 97.04%);
+  border-radius: 14px;
+}
+.card-gradient::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: -2;
+  background: url('/assets/backgrounds/Rectangle.png');
+  border-radius: 14px;
+}

@@ -21,12 +21,12 @@ function EvolvLayer() {
   ];
   return (
     <div className="flex flex-col items-center pb-[100px]">
-      <p className="font-satoshi text-[24px] md:text-[40px] md:pb-[30px] md:w-[1040px] text-center w-[345px] font-[400px] text-[#E2E4E8]">
+      <p className="font-satoshi text-[24px] pt-[48px] md:text-[40px] md:pb-[30px] md:w-[1040px] text-center w-[345px] font-[400px] text-[#E2E4E8]">
         A Dynamic NFT infrastructure which creates value for
       </p>
       {/* Mobile Version */}
       <div className="md:hidden px-[24px]">
-        <div className="flex flex-row pt-[48px] space-x-[40px] px-[24px] text-primaryRed font-array text-[24px]">
+        <div className="flex flex-row space-x-[40px] px-[24px] text-primaryRed font-array text-[24px]">
           <h1
             className=" cursor-pointer"
             onClick={() => setSelected("creators")}

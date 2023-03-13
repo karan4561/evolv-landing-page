@@ -27,7 +27,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         grains: "url('/assets/backgrounds/Granular-bg.svg')",
-        zigzag: "url('/assets/backgrounds/Zigzag-bg.svg')",
+        zigzag: "url('/assets/backgrounds/Zigzag-bg.png')",
         /* Rectangle 543459 */
 
 
@@ -40,7 +40,8 @@ module.exports = {
         background: {
           primaryDark: "#0F1A20",
         },
-        primaryRed: "#fe394e"
+        primaryRed: "#fe394e",
+        white: "#F0EFE4"
       }
     },
   },
