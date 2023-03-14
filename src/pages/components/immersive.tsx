@@ -4,29 +4,33 @@ import Vector from "../../../public/assets/svgs/Vector.png";
 import { useState } from "react";
 import star from "../../../public/assets/svgs/Star 6.png";
 import SomeCard from "../components/cards/SomeCard";
+import SlideCard from "./cards/SlideCard";
 
 function Immersive() {
   const [selected, setSelected] = useState("interaction");
 
   const immersive = (
-    <div>
-      <p className="font-sequel text-[34px] md:text-[45px] w-[356px] text-center mx-auto text-[#F0EFF4]">
+    <div className="">
+      <p className="font-sequel text-[34px] md:text-[40px] w-[356px] md:w-[723px] text-center mx-auto text-[#F0EFF4]">
         Evolv layer makes NFT
       </p>
-      <div className="pt-[40px]">
+      <div className="pt-[40px] md:hidden">
         <Image src={Vector} height={401} width={405} alt="" />
+      </div>
+      <div className="pt-[40px] md:h-[550px] md:w-[555px] lg:h-[701px] lg:w-[705px] pl-12  hidden md:flex">
+        <Image src={Vector} height={651} width={655} alt="" />
       </div>
     </div>
   );
 
   const slider = (
     <div className="md:flex md:flex-col md:items-start">
-      <div className="flex flex-row pl-6 space-x-[38px] ">
+      <div className="flex flex-row pl-6 space-x-[38px] md:pl-14 md:space-x-[45px] ">
         {selected === "interaction" ? (
           <div className="flex flex-row space-x-[9px]">
             <Image src={star} alt="" />
             <h1
-              className="font-satoshi text-[20px] cursor-pointer text-primaryRed"
+              className="font-satoshi text-[20px] md:text-[26px] cursor-pointer text-primaryRed"
               onClick={() => setSelected("interaction")}
             >
               Interaction
@@ -34,7 +38,7 @@ function Immersive() {
           </div>
         ) : (
           <h1
-            className="font-satoshi text-[20px] cursor-pointer text-[#959CAB]"
+            className="font-satoshi text-[20px] md:text-[26px] cursor-pointer text-[#959CAB]"
             onClick={() => setSelected("interaction")}
           >
             Interaction
@@ -45,7 +49,7 @@ function Immersive() {
           <div className="flex flex-row space-x-[9px]">
             <Image src={star} alt="" />
             <h1
-              className="font-satoshi text-[20px] cursor-pointer text-primaryRed"
+              className="font-satoshi text-[20px] md:text-[26px] cursor-pointer text-primaryRed"
               onClick={() => setSelected("value")}
             >
               Value
@@ -53,7 +57,7 @@ function Immersive() {
           </div>
         ) : (
           <h1
-            className="font-satoshi text-[20px] cursor-pointer text-[#959CAB]"
+            className="font-satoshi text-[20px] md:text-[26px] cursor-pointer text-[#959CAB]"
             onClick={() => setSelected("value")}
           >
             Value
@@ -63,7 +67,7 @@ function Immersive() {
           <div className="flex flex-row space-x-[9px]">
             <Image src={star} alt="" />
             <h1
-              className="font-satoshi text-[20px] cursor-pointer text-primaryRed"
+              className="font-satoshi text-[20px] md:text-[26px] cursor-pointer text-primaryRed"
               onClick={() => setSelected("experience")}
             >
               Experience
@@ -71,22 +75,22 @@ function Immersive() {
           </div>
         ) : (
           <h1
-            className="font-satoshi text-[20px] cursor-pointer text-[#959CAB]"
+            className="font-satoshi text-[20px] md:text-[26px] cursor-pointer text-[#959CAB]"
             onClick={() => setSelected("experience")}
           >
             Experience
           </h1>
         )}
       </div>
-      <div className="pt-[28px] mx-[20px] w-[353px] h-[494px]">
+      <div className="pt-[28px] mx-[20px] w-[353px] h-[494px] md:h-[701px] md:w-[505px]">
         <SomeCard>
           {selected === "interaction" && (
             <div className="flex flex-col text-center p-[24px] items-center">
-              <h1 className="text-[#F0EFF4] font-sequel text-[24px]">
+              <h1 className="text-[#F0EFF4] font-sequel text-[24px] md:text-[32px]">
                 <span className="text-primaryRed">Sustained </span>NFT
                 interaction
               </h1>
-              <p className="font-satoshi text-[16px] text-[#F0EFF4]">
+              <p className="font-satoshi text-[16px] md:text-[24px] text-[#F0EFF4]">
                 <p className="pt-[36px]">
                   Build, sustain and reward long-term relationships. Go beyond
                   the one-way, top-down approach
@@ -103,11 +107,11 @@ function Immersive() {
           )}
           {selected === "value" && (
             <div className="flex flex-col text-center p-[24px] items-center">
-              <h1 className="text-[#F0EFF4] font-sequel text-[24px]">
+              <h1 className="text-[#F0EFF4] font-sequel text-[24px] md:text-[32px]">
                 <span className="text-primaryRed">Bilateral </span>exchange of
                 Value
               </h1>
-              <p className="font-satoshi text-[16px] text-[#F0EFF4]">
+              <p className="font-satoshi text-[16px] md:text-[24px] text-[#F0EFF4]">
                 <p className="pt-[36px]">
                   Evolv model benefits you and your NFT holders alike. By
                   incentivizing both parties to engage and interact, the model
@@ -124,10 +128,10 @@ function Immersive() {
           )}
           {selected === "experience" && (
             <div className="flex flex-col text-center p-[24px] items-center">
-              <h1 className="text-[#F0EFF4] font-sequel text-[24px]">
+              <h1 className="text-[#F0EFF4] font-sequel text-[24px] md:text-[32px]">
                 One word <span className="text-primaryRed">Gamified </span>
               </h1>
-              <div className="font-satoshi text-[16px] text-[#F0EFF4]">
+              <div className="font-satoshi text-[16px] md:text-[24px] text-[#F0EFF4]">
                 <p className="pt-[36px]">
                   Expecting interaction without incentives is unfair from a
                   users pov. Evolv allows the NFT holder to experience what it
@@ -151,7 +155,7 @@ function Immersive() {
         {immersive}
         {slider}
       </div>
-      <div className="hidden md:flex flex-row space-x-[94px] justify-center mx-[109px] items-center">
+      <div className="hidden md:flex flex-row space-x-[224px] justify-center mx-[109px] items-center">
         {immersive}
         <div className="">{slider}</div>
       </div>

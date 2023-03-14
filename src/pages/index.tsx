@@ -5,6 +5,8 @@ import MainSection from "./components/mainSection";
 import Revolution from "./components/revolution";
 import EvolvLayer from "./components/evolvLayer";
 import Immersive from "./components/immersive";
+import FutureReady from "./components/futureReady";
+import RoadmapSection from "./components/roadmap";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,12 +25,14 @@ export default function Home() {
           <MainSection />
         </div>
         <div className="-mt-[222px] md:-mt-[167px]">
-          <div className="bg-zigzag bg-center relative bg-no-repeat" >
+          <div className="bg-zigzag bg-center md:bg-cover relative bg-no-repeat" >
               <Revolution/>
           </div>
         </div>
         <EvolvLayer/>
         <Immersive/>
+        <FutureReady/>
+        <RoadmapSection/>
       </main>
     </div>
   );

@@ -27,7 +27,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         grains: "url('/assets/backgrounds/Granular-bg.svg')",
-        zigzag: "url('/assets/backgrounds/Zigzag-bg.png')",
+        zigzag: "url('/assets/backgrounds/TracedBackground.png')",
         /* Rectangle 543459 */
 
 

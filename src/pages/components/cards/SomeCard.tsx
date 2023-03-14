@@ -6,8 +6,8 @@ interface Props {
 
 const SlideCard = ({children}:Props) => {
   return (
-    <div className='card'>
-        <div className='card-gradient'>{children}</div>
+    <div className='card2'>
+        <div className='card2-gradient'>{children}</div>
     </div>
   )
 }
