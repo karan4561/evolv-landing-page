@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function header() {
   return (
-    <div className='flex flex-row justify-between px-[22px] md:px-[66px] pt-[76px] md:pt-[44px] items-center'>
+    <div className='flex flex-row justify-between px-[22px] md:px-[66px] pt-[46px] md:pt-[34px] items-center'>
         <img src="/assets/svgs/Evolv.svg" alt="" className='w-[91px] h-[24px] md:h-[46px] md:w-[150px]' />
         <div className='flex flex-row space-x-[17px] md:space-x-[39px] items-center justify-end w-[20px] md:w-[30px] h-[16px] md:h-[25px]'>
             <div className='space-x-[72px] items-center flex flex-row'>

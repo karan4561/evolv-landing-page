@@ -2,14 +2,14 @@ import React from "react";
 
 function mainSection() {
   return (
-    <div className="pt-[193px] flex flex-col min-h-[700px] md:min-h-[1300px] md:pb-[252px] items-center md:justify-start md:items-start md:pl-[56px]">
-      <p className="text-center font-sequel text-white text-3xl md:text-[80px] md:leading-[120px]">
+    <div className="pt-[193px] flex flex-col min-h-[700px] md:min-h-[1100px] md:pb-[252px] items-center md:justify-start md:items-start md:pl-[56px]">
+      <p className="text-center font-sequel text-white text-3xl md:text-[70px] md:leading-[100px]">
         Launch NFTs
       </p>
-      <p className="text-center font-sequel text-white text-[32px] md:text-[80px] md:leading-[120px]">
+      <p className="text-center font-sequel text-white text-[32px] md:text-[70px] md:leading-[80px]">
         that drive
       </p>
-      <p className="text-center text-primaryRed font-array animate-pulse text-[62px] md:text-[95px]">
+      <p className="text-center text-primaryRed font-array animate-pulse text-[62px] md:text-[90px]">
         change
       </p>
 
@@ -23,7 +23,7 @@ function mainSection() {
         </p>
         
 
-      <div className="hidden md:flex pt-[105px] items-center md:flex-row md:justify-start md:space-x-[45px]">
+      <div className="hidden md:flex pt-[65px] items-center md:flex-row md:justify-start md:space-x-[45px]">
         {/* <button className="text-white rounded-lg mt-[68px] h-[56px] font-satoshi text-[20px] border-2 px-[64px] border-primaryRed py-[18px] md:hover:bg-primaryRed">
             Get Started
         </button> */}
