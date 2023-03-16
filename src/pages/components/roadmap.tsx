@@ -79,7 +79,7 @@ const Roadmap = () => {
     }
   }
   return (
-    <section className="mt-16 px-8 md:px-12 md:pt-24 snap-start h-screen w-screen overflow-hidden">
+    <section className="mt-16 px-8 md:px-20 md:pt-24 snap-start overflow-hidden">
       <p className="text-white text-xl sm:!text-2xl text-left">
         How we&apos;ll do it
       </p>
@@ -96,12 +96,12 @@ const Roadmap = () => {
 
         <div
           ref={rowRef}
-          className="flex items-center scrollbar-hide space-x-4 overflow-x-scroll md:space-x-8 md:p-2"
+          className="flex items-center h-auto scrollbar-hide space-x-4 overflow-x-scroll overflow-y-hidden md:space-x-8 md:p-2"
         >
           {roadmapData.map((data, key) => (
             <SwiperSlide
               key={key}
-              className="relative h-[356px] w-[304px] sm:h-[400px] sm:w-[350px] md:!h-[350px] md:w-[400px] cursor-pointer mt-10"
+              className="relative h-auto w-[304px] sm:h-[400px] sm:w-[350px] md:!h-[350px] md:w-[400px] cursor-pointer mt-10 md:mt-20"
             >
               <SlideCard>
                 <div className="px-8 py-4">

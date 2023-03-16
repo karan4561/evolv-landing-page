@@ -21,8 +21,8 @@ function FutureReady() {
       </div>
 
       {/* // Desktop Version */}
-      <div className="hidden md:flex flex-row space-x-[10%] pt-12 justify-center">
-        <div className="flex ml-[200px] flex-col items-start">
+      <div className="hidden md:flex flex-row space-x-[10%] pt-12 justify-between px-20">
+        <div className="flex flex-col items-start">
           <p className="text-[64px] text-left font-bold w-[450px] text-white">
             <span className="font-array text-[76px] text-primaryRed">
               Future
@@ -33,7 +33,7 @@ function FutureReady() {
             Launch Dynamic Interactive NFTs using our End-to-End SaaS Platform
             in less than 5 minutes.
           </p>
-          <button className="px-[77px] mb-28 py-[15px] rounded-xl text-center font-satoshi text-[20px]  border-2 text-white  border-primaryRed">
+          <button className="px-[77px] mb-28 py-[15px] rounded-xl text-center hover:bg-primaryRed font-satoshi text-[20px]  border-2 text-white  border-primaryRed">
             Lets Talk
           </button>
         </div>

@@ -176,6 +176,58 @@
   border-radius: 14px;
 }
 
+.slide2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  border-radius: 14px;
+}
+.slide2::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(241.68deg, #fe394e 1.6%, #0f1a20 38.62%);
+  border-radius: 14px;
+}
+.slide2::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: #0f1a20;
+  position: absolute;
+  z-index: 3;
+  right: 2.5px;
+  top: 2.5px;
+  border-radius: 14px;
+}
+.slide2-gradient {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+  background: linear-gradient(
+    62.42deg,
+    rgba(255, 255, 255, 0.1) 20.61%,
+    rgba(255, 255, 255, 0) 82.27%
+  );
+  border-radius: 14px;
+}
+.slide2-gradient::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  z-index: 4;
+  background: url('/assets/backgrounds/green-scale.svg');
+  border-radius: 14px;
+}
+
+
 .card2 {
   position: relative;
   display: flex;
@@ -189,6 +241,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
+  z-index: 2;
   background: linear-gradient(241.68deg, #fe394e 1.6%, #0f1a20 38.62%);
   border-radius: 14px;
 }
@@ -218,7 +271,7 @@
   top: 0px;
   left: 0px;
   position: absolute;
-  z-index: 4;
+  z-index: -4;
   background: url('/assets/backgrounds/Rectangle2.svg');
   border-radius: 14px;
 }

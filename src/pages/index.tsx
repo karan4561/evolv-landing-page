@@ -7,6 +7,8 @@ import EvolvLayer from "./components/evolvLayer";
 import Immersive from "./components/immersive";
 import FutureReady from "./components/futureReady";
 import RoadmapSection from "./components/roadmap";
+import Fans from "./components/fans-collectors";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,7 +35,9 @@ export default function Home() {
         <Immersive/>
         <FutureReady/>
         <RoadmapSection/>
+        <Fans/>
       </main>
+      <Footer/>
     </div>
   );
 }

@@ -4,6 +4,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{html,js}",
  
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -28,6 +29,8 @@ module.exports = {
       backgroundImage: {
         grains: "url('/assets/backgrounds/Granular-bg.svg')",
         zigzag: "url('/assets/backgrounds/TracedBackground.png')",
+        footer: "url('/assets/backgrounds/footer.png')",
+        //animation: "url('src/pages/components/mainSection/dist/index.html')",
         /* Rectangle 543459 */
 
 

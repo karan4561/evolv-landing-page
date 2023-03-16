@@ -155,9 +155,9 @@ function Immersive() {
         {immersive}
         {slider}
       </div>
-      <div className="hidden md:flex flex-row space-x-[5%] justify-center mx-[109px] items-center">
+      <div className="hidden md:flex flex-row pb-20 pl-12 pr-40 justify-between items-center">
         {immersive}
-        <div className="">{slider}</div>
+        <div>{slider}</div>
       </div>
     </div>
   );
