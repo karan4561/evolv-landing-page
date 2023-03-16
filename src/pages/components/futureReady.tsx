@@ -23,7 +23,7 @@ function FutureReady() {
       {/* // Desktop Version */}
       <div className="hidden md:flex flex-row space-x-[10%] pt-12 justify-between px-20">
         <div className="flex flex-col items-start">
-          <p className="text-[64px] text-left font-bold w-[450px] text-white">
+          <p className="text-[64px] text-left leading-[76px] font-bold w-[450px] text-white">
             <span className="font-array text-[76px] text-primaryRed">
               Future
             </span>{" "}

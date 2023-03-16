@@ -11,7 +11,7 @@ function Immersive() {
 
   const immersive = (
     <div className="">
-      <p className="font-sequel text-[34px] md:text-[40px] w-[356px] md:w-[723px] text-center mx-auto text-[#F0EFF4]">
+      <p className="font-sequel text-3xl md:text-4xl w-[356px] md:w-[723px] text-center mx-auto text-[#F0EFF4]">
         Evolv layer makes NFT
       </p>
       <div className="pt-[40px] md:hidden">

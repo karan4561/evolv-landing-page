@@ -3,13 +3,13 @@ import React from "react";
 function mainSection() {
   return (
     <div className="pt-[193px] flex flex-col min-h-[700px] md:min-h-[1300px] md:pb-[252px] items-center md:justify-start md:items-start md:pl-[56px]">
-      <p className="text-center font-sequel text-white text-[32px] md:text-[80px]">
+      <p className="text-center font-sequel text-white text-3xl md:text-[80px] md:leading-[120px]">
         Launch NFTs
       </p>
-      <p className="text-center font-sequel text-white text-[32px] md:text-[80px]">
+      <p className="text-center font-sequel text-white text-[32px] md:text-[80px] md:leading-[120px]">
         that drive
       </p>
-      <p className="text-center text-primaryRed font-array text-[62px] md:text-[95px]">
+      <p className="text-center text-primaryRed font-array animate-pulse text-[62px] md:text-[95px]">
         change
       </p>
 
@@ -32,7 +32,7 @@ function mainSection() {
             <span className="text-white">Get Started</span>
         </button>
 
-        <p className="text-white w-[637px] font-satoshi text-[28px] text-start">
+        <p className="text-white w-[637px] font-satoshi text-[28px] leading-[36px] text-start">
             Launch dynamic and immersive NFTs with Evolv that unlocks value for you
             and your holders.
         </p>

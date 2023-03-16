@@ -4,9 +4,9 @@ import Image from "next/image";
 function revolution() {
   return (
     <div className="flex flex-col overflow-hidden justify-center items-center pt-[227px] md:pt-[250px] md:pb-[90px]">
-      <p className="font-sequel sm:w-[1100px] text-white text-center text-[32px] sm:text-[44px] md:text-[75px]">
+      <p className="font-sequel sm:w-[1100px] text-white text-center text-3xl sm:text-5xl md:text-7xl md:leading-[77px]">
         It’s time for an NFT
-        <span className="font-array text-[40px] sm:text-[52px] md:text-[83px] text-primaryRed">
+        <span className="font-array text-[40px] sm:text-[52px] md:text-8xl md:animate-pulse text-primaryRed">
           {" "}
           revolution
         </span>
@@ -21,7 +21,7 @@ function revolution() {
             alt=""
             />
         </div>
-        <p className="md:hidden pt-[44px] px-5 font-satoshi text-[20px] text-center text-white">
+        <p className="md:hidden pt-[44px] px-5 font-satoshi text-xl text-center text-white">
             We believe NFTs can be a lot more. Introducing immersive NFTs on Evolv,
             amplify your NFT holding experience with interactive, gamified NFTs.
         </p>
@@ -36,7 +36,7 @@ function revolution() {
             alt=""
             />
         </div>
-        <p className="font-satoshi text-[32px] pt-28 w-[502px] text-start text-white">
+        <p className="font-satoshi text-3xl leading-[57px] pt-28 w-[502px] text-start text-white">
             We believe NFTs can be a lot more. Introducing immersive NFTs on Evolv,
             amplify your NFT holding experience with interactive, gamified NFTs.
         </p>

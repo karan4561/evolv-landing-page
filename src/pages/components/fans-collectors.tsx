@@ -35,17 +35,17 @@ function fans() {
       </div>
 
       {/* Desktop Version */}
-      <div className="hidden md:flex flex-col py-[150px] pl-16">
+      <div className="hidden md:flex flex-col py-[290px] pl-16">
         <p className="text-start text-[64px] font-sequel leading-[80px] w-[772px] text-white">
           Come join the{" "}
           <span className="font-array text-[72px] text-primaryRed">
             revolution
           </span>
         </p>
-        <div className="flex flex-row space-x-20">
+        <div className="flex flex-row space-x-20 justify-between">
           <div className="pt-[48px]">
             <SlideCard>
-              <div className="flex flex-col items-start px-[32px] py-[70px]">
+              <div className="flex flex-col items-start pl-[32px] py-[70px]">
                 <p className="font-sequel text-white text-start text-5xl w-[472px] leading-[67px]">
                   For brands & creators
                 </p>
@@ -67,9 +67,9 @@ function fans() {
             height={375}
             className="animate-pulse"
           />
-          <div className="pt-[48px]">
+          <div className="pt-[48px] lg:pr-14">
             <SlideCard>
-              <div className="flex flex-col items-start px-[32px] py-[70px]">
+              <div className="flex flex-col items-start pl-[32px] py-[70px]">
                 <p className="font-sequel text-white text-start text-5xl w-[472px] leading-[67px]">
                   For fans & collectors
                 </p>
