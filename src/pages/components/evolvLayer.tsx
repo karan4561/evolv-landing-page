@@ -20,8 +20,8 @@ function EvolvLayer() {
     "Contribute-to-earn",
   ];
   return (
-    <div className="flex flex-col items-center pt-12 sm:pt-36 pb-[100px] md:pb-[500px]">
-      <p className="font-satoshi700 text-[24px] sm:text-[32px] sm:w-[80%] pb-20 pt-28 md:pt-[58px] md:text-[48px] md:pb-[30px] md:w-[1340px] text-center w-[345px] font-[400px] text-[#E2E4E8]">
+    <div className="flex flex-col items-center pt-12 sm:pt-36 pb-[100px] md:pb-[200px]">
+      <p className="font-satoshi700 text-[24px] sm:text-[32px] sm:w-[80%] pb-14 pt-28 md:pt-[58px] md:4xl xl:text-[48px] md:pb-[30px] md:w-[1340px] text-center w-[345px] font-[400px] text-[#E2E4E8]">
         A Dynamic NFT infrastructure which creates value for
       </p>
       {/* Mobile Version */}
@@ -43,7 +43,7 @@ function EvolvLayer() {
         <div className="mt-7 h-full">
           <SlideCard>
             <div className="p-[20px]">
-              <ul className="text-[24px] list-disc pl-5 font-satoshi tracking-widest text-white">
+              <ul className="text-lg list-disc pl-4 font-satoshi tracking-widest text-white">
                 {selected === "creators" &&
                   creatorText.map((item) => <li key={item}>{item}</li>)}
                 {selected === "collectors" &&
@@ -55,7 +55,7 @@ function EvolvLayer() {
       </div>
       {/* Desktop Version */}
       <div className="hidden md:flex flex-col items-center">
-        <div className="flex flex-row font-array md:pt-16 text-[62px] space-x-[312px] text-primaryRed">
+        <div className="flex flex-row font-array md:pt-10 text-5xl xl:text-6xl pb-5 space-x-[312px] text-primaryRed">
           <p className="-ml-[44px]">Creators</p>
           <p className="pl-[170px]">Collectors</p>
         </div>
@@ -63,7 +63,7 @@ function EvolvLayer() {
           <div className="w-[553px]">
             <SlideCard>
               <div className="">
-                <ul className="text-[32px]  text-gray-100 list-disc text-left px-12 py-10 tracking-wider">
+                <ul className="xl:text-[32px] text-2xl text-gray-100 list-disc text-left px-12 leading-9 py-4 tracking-wider">
                   {creatorText.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
@@ -71,9 +71,9 @@ function EvolvLayer() {
               </div>
             </SlideCard>
           </div>
-          <div className="w-[553px] ">
+          <div className="w-[593px] ">
             <SlideCard>
-              <ul className="text-[32px] text-gray-100 list-disc py-10 tracking-widest px-10">
+              <ul className="xl:text-[32px] text-[22px] text-gray-100 list-disc text-left pl-10 leading-9 py-4 tracking-wider">
                 {collectorText.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
@@ -83,12 +83,12 @@ function EvolvLayer() {
         </div>
       </div>
       <div className="relative min-h-[215px] w-[180%] flex justify-center items-center sm:min-h-[400px] sm:-mt-[100px] md:h-[500px] md:-mt-[100px] md:w-[100%] md:mx-auto">
-        <Image src={EvolvEarth} alt="evolv" className="object-contain md:mt-48 md:h-[980px] md:w-[980px] sm:h-[750px] sm:w-[750px]" />
-        <div className="absolute text-center top-30% sm:top-[40%] md:top-[50%]">
-          <h6 className="font-satoshi text-[20px] text-gray-100 md:text-[33px]">
+        <Image src={EvolvEarth} alt="evolv" className="object-contain md:-mt-5 md:mr-8 md:w-[650px] md:h-[650px] sm:h-[50%] sm:w-[50%] h-[70%] w-[70%]" />
+        <div className="absolute text-center top-30% md:top-[32%] md:pr-7">
+          <h6 className="font-satoshi text-[20px] text-gray-100 md:text-2xl">
             WE CALL IT THE
           </h6>
-          <h1 className="font-array text-[90px] text-gray-100 uppercase leading-[82.5px] sm:text-heading-64 sm:leading-[70px] md:text-[95px] md:leading-[75px] lg:text-[100px] lg:leading-[85px]">
+          <h1 className="font-array text-6xl text-gray-100 uppercase leading-[60.5px] sm:text-64 sm:leading-[70px] md:text-[80px] md:leading-[75px]">
             Evolv
             <br /> Layer
           </h1>

@@ -83,7 +83,7 @@ const Roadmap = () => {
       <p className="text-white text-xl sm:!text-2xl text-left">
         How we&apos;ll do it
       </p>
-      <h1 className="text-3xl sm:text-5xl md:text-[90px] mt-1 text-primaryRed font-array">
+      <h1 className="text-3xl sm:text-5xl md:text-[75px] mt-1 text-primaryRed font-array">
         The Roadmap
       </h1>
       <div className="group relative  ">
