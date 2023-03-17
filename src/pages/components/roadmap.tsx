@@ -79,7 +79,7 @@ const Roadmap = () => {
     }
   }
   return (
-    <section className="mt-16 px-8 md:px-20 snap-start overflow-hidden">
+    <section className="mt-16 md:mt-0 px-8 md:px-20 snap-start overflow-hidden">
       <p className="text-white text-xl sm:!text-2xl text-left">
         How we&apos;ll do it
       </p>
